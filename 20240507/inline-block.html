@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>inline-block</title>
+</head>
+<style>
+body{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: antiquewhite;
+}
+nav{
+    height: 100px;
+    background-color: aqua;
+}
+main{
+    min-height: 1000px;
+    background-color: aquamarine;
+}
+aside{
+    width: 20%;
+    background-color: blanchedalmond;
+    min-height: 1000px;
+}
+section{
+    width: 80%;
+    background-color: brown;
+    min-height: 1000px;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: beige;
+    clear: both;
+}
+.menu{
+    list-style-type: none;
+    float: right;
+    
+}
+.menu-item a{
+    text-decoration: none;
+}
+.menu-item{
+    display: inline-block;
+    width: 100px;
+    line-height: 100px;
+    background-color: rgb(124, 247, 252);
+}
+.menu-item a:hover{
+    color: red;
+}
+</style>
+
+<body>
+    <header></header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+        </ul>
+    </nav>
+    <main></main>
+    <footer></footer>
+</body>
+</html>

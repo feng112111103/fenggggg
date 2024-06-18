@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: antiquewhite;
+}
+nav{
+    height: 100px;
+    background-color: aqua;
+}
+main{
+    min-height: 1000px;
+    background-color: aquamarine;
+}
+aside{
+    width: 20%;
+    background-color: blanchedalmond;
+    min-height: 1000px;
+}
+section{
+    width: 20%;
+    background-color: brown;
+    min-height: 1000px;
+}
+footer{
+    height: 100px;
+    background-color: beige;
+}
